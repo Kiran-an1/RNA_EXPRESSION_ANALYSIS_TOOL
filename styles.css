@@ -1,0 +1,160 @@
+
+
+/* Streamlit app container styling */
+.stApp {
+    background: linear-gradient(to bottom, #6397a7, #063a56); /* Light blue to dark blue */
+    color: #000000; /* Text color for readability */
+    font-family: 'Arial', sans-serif; /* Use a clean, professional font */
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+/* Input and multiselect styling */
+.st-multiselect {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    border: 1px solid #021d2b; /* Blue border */
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+/* Button styling */
+.stButton > button {
+    background-color: #011520; /* Dark blue button */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.stButton > button:hover {
+    background-color: #d9e1e7; /* Darker blue on hover */
+}
+
+/* Titles and headers */
+h1, h2, h3 {
+    color: #051019; /* Dark blue for headings */
+}
+
+/* Tables and DataFrames */
+.stDataFrame {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    border: 1px solid #021a27;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Title styling */
+.stTitle {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #375685;  /* Light blue text for title */
+}
+.stwrite {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #375685
+}
+
+/* Input field styling */
+.stTextInput input, .stMultiselect input {
+    border: 1px solid #ccc;  /* Default border color */
+    background-color: #f0f0f0;  /* Light gray background */
+    color: hsl(212, 31%, 60%);  /* Black text */
+    border-radius: 4px;  /* Rounded corners */
+    padding: 5px;
+}
+
+/* Change border and background for focused input fields */
+.stTextInput input:focus, .stMultiselect input:focus {
+    border-color: #08203b;  /* Light blue border when focused */
+    background-color: #c3a3af;  /* Light blue background when focused */
+    outline: none;  /* Remove default blue outline */
+    color: #f4f0f0;  /* Black text when focused */
+}
+
+/* Remove any error (red) highlighting for invalid inputs */
+.stTextInput input:invalid, .stMultiselect input:invalid {
+    border-color: #031023;  /* Light blue border for invalid input */
+    background-color: #e8f5ff;  /* Light blue background for invalid input */
+}
+
+/* Optional: Custom styling for multiselect dropdown */
+.stMultiselect div {
+    background-color: #f0f0f0;  /* Light gray background for dropdown */
+    border: 1px solid #ccc;  /* Default border */
+    border-radius: 4px;  /* Rounded corners */
+    padding: 5px;
+}
+
+/* Button styling */
+.stButton button {
+    background-color: #e7ebf0;  /* Dark blue button background */
+    color: #ffffff;  /* White text */
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.stButton button:hover {
+    background-color: #b6d6e6;  /* Lighter blue background on hover */
+}
+
+/* DataFrame styling */
+.stDataFrame {
+    background-color: #020406;  /* Dark blue background for data tables */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: #bbc6d2;  /* Light gray text for tables */
+}
+
+/* Plotly chart styling */
+.stPlotlyChart {
+    background-color: #0c0b0b;  /* Dark background for charts */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Markdown and text styling */
+.stMarkdown, .stText {
+    color: #ced5dc;  /* Light gray text */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header and Footer styling */
+.stHeader, .stFooter {
+    font-family: 'Arial', sans-serif;
+    color: #cad0d6;  /* Light gray text */
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Customize multiselect dropdown item */
+.stMultiselect div div {
+    background-color: #2a0309;  /* Dark blue for dropdown items */
+    color: #ffffff;  /* White text for dropdown items */
+    padding: 5px;
+    border-radius: 3px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #042239;  /* Light blue scrollbar */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #021e32;  /* Dark blue scrollbar track */
+}
